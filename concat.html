@@ -248,11 +248,7 @@ a:hover {
       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
       <label for="floatingTextarea2">Şikayetiniz/Öneriniz</label>
     </div>
-    
-   
-   
-        
-        
+    <input type="submit" value="İlet" id="anasayfaaçıl" />
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -321,6 +317,12 @@ a:hover {
           </div>
         </div>
       </div>
+      <script>
+        var mesaj=document.getElementById("anasayfaaçıl");
+        mesaj.addEventListener("click",function(){
+          window.open("talep.html");
+        })
+      </script>
     </footer>
   </body>
 </html>
