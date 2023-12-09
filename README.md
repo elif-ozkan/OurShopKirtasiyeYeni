@@ -1,2 +1,1 @@
-# OurShopKirtasiyeYeni
-Web tasarım proje
+https://elif-ozkan.github.io/OurShopKirtasiyeYeni/
