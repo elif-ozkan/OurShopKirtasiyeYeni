@@ -110,6 +110,7 @@ a:hover {
   display: block;
 }
 
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
@@ -147,9 +148,11 @@ a:hover {
   background-color: #136af8;
   /* Diğer stil özellikleri */
 }
+.btngönder:hover{
+  color: #ddd; 
+     
+}
 
-
-    
     </style>
   </head>
   <header class="section">
@@ -248,7 +251,9 @@ a:hover {
       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
       <label for="floatingTextarea2">Şikayetiniz/Öneriniz</label>
     </div>
-    <button type="button" class="btn btn-primary" style="margin-left: 500px; margin-top: -930px;"><a href="javascript:alert('Talebiniz ilgili birimlere iletilmiştir!');">Gönder</a></button>    
+    <div class="btngönder"> 
+    <button type="button" class="btn btn-primary" style="margin-left: 500px; margin-top: -930px;"><a href="javascript:alert('Talebiniz ilgili birimlere iletilmiştir!');">Gönder</a></button> 
+    </div>    
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
