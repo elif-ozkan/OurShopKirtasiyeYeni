@@ -364,7 +364,7 @@ input[type="submit"]:hover {
               <label>Password</label>
             </div>
             <div class="pass">Forgot Password?</div>
-            <input type="submit" value="Login" onclick="anasayfaaçıl()" />
+            <input type="submit" value="Login" id="anasayfaaçıl" />
             <div class="signup_link" style="color: black;" >Not a member? <a onclick="window.open('popupüye.html','','toolbar=no,scrollbars=no,resizable=no,width=500,height=480');">Signup</a></div>
           </form>
         </div>
@@ -404,6 +404,12 @@ input[type="submit"]:hover {
               </div>
             
       </div>
+      <script>
+        var mesaj=document.getElementById("anasayfaaçıl");
+        mesaj.addEventListener("click",function(){
+          window.open("index.html");
+        })
+      </script>
       
       
     </footer>
